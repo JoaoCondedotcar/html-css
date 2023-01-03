@@ -1,0 +1,12 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body{
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+
+}
+p{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.1em;
+}

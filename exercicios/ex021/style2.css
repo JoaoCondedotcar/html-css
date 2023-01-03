@@ -1,0 +1,47 @@
+@charset "UTF-8";
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: greenyellow;
+    margin: 0px;
+}
+header {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-color: darkgreen;
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 13px;
+    box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, 0.282);
+}
+nav {
+    background-color: darkgreen;
+}
+#titulo-principal {
+    text-align: center;
+    text-decoration: underline 2px;
+}
+#cabecalho {
+    text-align: center;
+}
+main {
+    background-color: white;
+    padding: 10px;
+    border-color: darkgreen;
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 13px;
+    margin: 10px;
+    box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, 0.282);
+}
+footer {
+    background-color: chartreuse;
+    padding: 4px 2px 5px 2px;
+    margin: 10px auto 0px auto;
+    text-align: center;
+}
+a {
+    color: aliceblue;
+    padding: 0px 10px 0px 10px;
+    margin: 0px;
+}

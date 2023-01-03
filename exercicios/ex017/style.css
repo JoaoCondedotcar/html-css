@@ -1,0 +1,21 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Gemstones&display=swap');
+body{
+    /*
+    Medidas Abslutas
+    cm, mm, in(polegada), px, pt(ponto), pc(pica)
+
+    Medidas Relativas
+    em(medida relativa ao tamanho atual da fonte), ex(relativo à altura x), rem(relativo à fonte configurada no "body"), vw(relativo à largura da tela), vh(relativo à altura da tela)
+    
+    DEVE SE USAR "px" E "em"
+
+    tamanho original, sem edição= 16px(normalmente)
+    geralmente é igual a 1em
+
+    RECOMENDA-SE QUE USE "em", pois trabalha com um valor relativo ao padrão
+    */
+    /* shorthand font
+    font-style ->font-weight ->font-size ->font-family*/
+    font: italic bolder 0.7em 'Work Sans', sans-serif;
+}
