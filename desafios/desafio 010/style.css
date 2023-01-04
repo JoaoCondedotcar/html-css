@@ -70,7 +70,7 @@ nav a:hover{
 main{
     background-color: white;
     margin: auto;
-    width: 70%;
+    max-width: 700px;
     box-shadow: 2px 2px 23px rgba(0, 0, 0, 0.466);
 }
 main p{
