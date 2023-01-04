@@ -36,7 +36,7 @@ header{
 header > h1{
     font-family: var(--fonte-destaque);
     font-size: 3em;
-    margin: 20px 5px 25px 5px;
+    padding: 20px 5px 25px 5px;
     text-align: center;
 }
 header > p{
