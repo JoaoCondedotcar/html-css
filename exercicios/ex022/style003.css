@@ -1,0 +1,20 @@
+@charset "UTF-8";
+div.square{
+    height: 175px;
+    border: 1px solid none;
+    border-radius: 10px;
+    margin: 5px;
+    background-image: url(images/wallpaper003.jpg);
+}
+div#s1{
+    background-position: left top;
+}
+div#s2{
+    background-position: left center;
+}
+div#s3{
+    background-position: right bottom;
+}
+div#s4{
+    background-position: center center;
+}
