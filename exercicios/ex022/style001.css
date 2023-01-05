@@ -1,0 +1,24 @@
+@charset "UTF-8";
+body{
+    background-image: url(images/pattern001.png);
+    margin: 0px;
+    padding: 0px;
+}
+div.square{
+    border: 1px solid none;
+    border-radius: 10px;
+    margin: 6px;
+    width: 225px;
+    height: 225px;
+    display: inline-block;
+    background-color: green;
+}
+div#s1{
+    background-image: url(images/wallpaper001.jpg);
+}
+div#s2{
+    background-image: linear-gradient( to top, purple, pink, white);
+}
+div#s3{
+    background-color: aqua;
+}

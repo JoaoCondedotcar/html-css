@@ -1,0 +1,12 @@
+@charset "UTF-8";
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    margin: 0px;
+    background-image: url(images/wallpaper004.jpg);
+}
+body h1{
+    text-align: center;
+}
