@@ -1,0 +1,9 @@
+@charset "UTF-8";
+body{
+    margin: 0px;
+    height: 100vh;
+    background-image: url(images/image-removebg-preview\ \(1\).png), url(images/image-removebg-preview\ \(2\).png), url(images/wallpaper004.jpg);
+    background-size: 100px, 100px, auto;
+    background-repeat: no-repeat;
+    background-position: right center, left center, center center;
+}
