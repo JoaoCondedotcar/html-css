@@ -1,0 +1,29 @@
+@charset "UTF-8";
+body{
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: 16px;
+    font-style: normal;
+    text-align: justify;
+    background-image: url(images/wallpaper002.jpg);
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-position: center center;
+    background-color: white;
+    background-attachment: fixed;
+}
+main{
+    background-color: white;
+    margin: 15px auto 15px auto;
+    max-width: 500px;
+    border: 1px solid none;
+    border-radius: 20px;
+}
+main h1{
+    text-align: center;
+    margin: 0px;
+}
+main p{
+    margin: 8px;
+}
