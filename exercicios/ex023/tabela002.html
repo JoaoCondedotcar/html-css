@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas grandes</title>
+    <style>
+        body{
+            background-color: rgb(213, 213, 83);
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+        }
+        body h1{
+            color: black;
+            font-size: 2.5em;
+            text-align: center;
+            margin: 0px;
+        }
+        table{
+            background-color: white;
+            margin: 50px auto 0px auto;
+            text-align: center;
+            border: 2px solid black;
+            border-collapse: collapse;
+            width: 90vw;
+            height: 300px;
+        }
+        thead{
+            font-weight: bold;
+            margin: 0px;
+            height: 40px;
+            background-color: gold;
+        }
+        tbody > tr:nth-child(odd){
+            background-color: lightgoldenrodyellow;
+        }
+        th{
+            border: 2.5px solid black;
+        }
+        td{
+            border: 2.5px solid black;
+            margin: 0px;
+        }
+        td:hover{
+            color: white;
+            padding: 0px;
+            background-color: black;
+            font-weight: bolder;
+        }
+        tfoot{
+            font-weight: bold;
+            background-color: gold;
+            width: 100%;
+        }
+        caption{
+            background-color: goldenrod;
+            font-weight: bold;
+            font-size: 1.6em;
+            border: 2.5px solid black;
+            margin-bottom: 5px;
+        }
+        div{
+            color: white;
+            background-color: black;
+            border: 2.5px solid black;
+            width: 89.85vw;
+            margin: 5px auto 0px auto;
+            text-align: center;
+            font-weight: bolder;
+            font-size: 1.5em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <table>
+        <caption>População das unidades federativas</caption>
+        <tfoot>
+            <tr>
+                <th scope="row">Total</th>
+                <th scope="row">Sudeste</th>
+                <th scope="row">xxxx.xxx.xxx</th>
+                <th scope="row">muitos porcento</th>
+                <th scope="row">Bicuíba</th>
+            </tr>
+        </tfoot>
+        <thead>
+            <tr>
+                <th scope="col">Posição</th>
+                <th scope="col">Unidade federativa</th>
+                <th scope="col">População</th>
+                <th scope="col" style="max-width: 50px;">% da população total</th>
+                <th scope="col">País comparável</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="dado">1</td>
+                <td class="dado">São Paulo</td>
+                <td class="dado">46 024 937</td>
+                <td class="dado">22,2%</td>
+                <td class="dado">Espanha</td>
+            </tr>
+            <tr>
+                <td class="dado">2</td>
+                <td class="dado">Minas Gerais</td>
+                <td class="dado">20 732 660</td>
+                <td class="dado">10%</td>
+                <td class="dado">Burquina Fasso</td>
+            </tr>
+            <tr>
+                <td class="dado">3</td>
+                <td class="dado">Rio de Janeiro</td>
+                <td class="dado">16 615 526</td>
+                <td class="dado">8%</td>
+                <td class="dado">Camboja</td>
+            </tr>
+            <tr>
+                <td class="dado">4</td>
+                <td class="dado">Raul Soares</td>
+                <td class="dado">26 440</td>
+                <td class="dado">0,03%</td>
+                <td class="dado">Marte</td>
+            </tr>
+        </tbody>
+    </table>
+    <div>
+        <p>Fonte: nãosei.com</p>
+    </div>
+</body>
+</html>
