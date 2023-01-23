@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Exemplo</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Dados pessoais</legend>
+        
+            <p>
+                <label for="inome">Nome</label>
+                <input type="text" name="nome" id="inome" minlength="5" maxlength="30" required>
+            </p>
+            <p>
+                <label for="ialtura">Sua altura</label>
+                <input type="number" name="altura" id="ialtura" min="1" max="3" step="0.01" pattern="^\d{1}\,\d{2}$" required>
+            </p>
+    </fieldset>
+    <fieldset>
+        <legend>Dados adicionais</legend>
+        
+            <p>
+                <label for="iemail">Seu e-mail</label>
+                <input type="email" name="email" id="iemail" autocomplete="email" required>
+            </p>
+            <p>
+                <label for="icelular">Celular</label>
+                <input type="tel" name="celular" id="celular" autocomplete="tel"
+                pattern="^\(\d{2}\)\d{4,5}-\d{4}$" placeholder="(xx)xxxx-xxxx" required>
+            </p>
+    </fieldset>
+    <p>
+        <input type="submit" value="Cadastrar">
+        <input type="reset" value="Limpar">
+    </p>
+    </form>
+</body>
+</html>
