@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+        width: 100vw;
+        height: 100vh;
+        background: black url(imagens/fundo-inicial.jpg) no-repeat top center;
+        background-size: cover;
+        }
+        a#instagram{
+            position: relative;
+            top: 77%;
+            left: 10%;
+        }
+        a#instagram > img{
+            border-radius: 50%;
+        }
+        a > img:hover{
+            transform: translate(-3px, -3px);
+            transition: transform 0.5s;
+        }
+        a#twitter{
+            position: relative;
+            top: 77%;
+            left: 31%;
+        }
+        a#twitter > img{
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <a href="instagram.html" id="instagram"><img src="imagens/logo-instagram.jpg" alt="instagram"></a>
+    <a href="twitter.html" id="twitter"><img src="imagens/logo-twitter.jpg" alt="twitter"></a>
+</body>
+</html>
