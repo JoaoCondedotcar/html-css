@@ -1,3 +1,13 @@
 @charset "UTF-8";
 
 /* Large devices (laptops/desktops, 992px and up) */
+
+body {
+    background-image: url(../imagens/back-pc.jpg);
+}
+
+img#phone { display: none; }
+img#tablet { display: none; }
+img#print { display: none; }
+img#pc { display: block; }
+img#tv { display: none; }

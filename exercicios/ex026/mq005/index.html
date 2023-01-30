@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Media Query</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,700,1,200" />
+    <link rel="stylesheet" href="styles/style.css" media="all">
+    <link rel="stylesheet" href="styles/style768.css" media="min-width: 768px">
+    <link rel="stylesheet" href="styles/style992.css" media="min-width: 992px">
+    <link rel="stylesheet" href="styles/style1200.css" media="min-width: 1200px">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Brain Bank</h1>
+        <p id="header-p">"O lugar que te ajuda a pensar"</p>
+        <span class="material-symbols-outlined" id="burguer" onclick="clickMenu()">menu</span>
+        <menu id="menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Ideas</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#" id="help">Help</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>How does it works?</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor in necessitatibus veniam ducimus, non deleniti nulla repellat repudiandae! Nam, qui ad? A voluptatum nemo amet blanditiis dolor hic, ratione earum!</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam deserunt vero, nemo odio fuga cupiditate molestiae dolorem nostrum cumque provident accusantium nihil vitae impedit, ea praesentium expedita! Sit debitis distinctio atque dignissimos labore nisi eos maxime commodi sint nesciunt sequi magnam nostrum ut cum fugiat ullam recusandae unde, voluptatibus repellendus.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod nobis inventore laboriosam corporis, rerum explicabo provident. Facere, unde beatae error nemo qui laborum sed vero earum culpa, optio nulla hic!</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas cumque iusto totam necessitatibus, eaque blanditiis deleniti libero voluptas magnam fugiat at sint commodi nostrum minima neque soluta a corrupti consequuntur cum? Eveniet hic ad, minus quibusdam omnis pariatur consequatur qui illo incidunt maiores magnam obcaecati voluptatem alias iure voluptatum placeat, recusandae, atque laborum voluptate delectus tempora ratione tempore. Esse commodi repellendus odit molestiae natus architecto dicta earum qui praesentium ex.</p>
+        </article>
+        <article>
+            <h2>When will you grow up?</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, minima. Distinctio tempora quis culpa quidem sunt illo libero ab a corrupti optio deserunt laboriosam dignissimos voluptatem recusandae animi nulla voluptas repudiandae sequi aliquid, pariatur accusamus aperiam quasi, dicta ex! Cumque, dolorem. Mollitia perspiciatis omnis illum odio officiis ipsam culpa qui, unde voluptas quam delectus eos non, excepturi nulla amet, aspernatur placeat natus aut? Distinctio dolorum ab sint ipsam nesciunt a fugiat quasi, eligendi cumque aperiam hic et quas temporibus commodi?</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum, at error iusto quae adipisci corrupti nihil. Vitae voluptatibus dolor consectetur esse quis laborum nisi tempora alias ab! Aut, enim. Repellat ratione, error eum, facilis necessitatibus deserunt assumenda numquam facere adipisci velit, aperiam distinctio? Corporis voluptate animi quidem tempore consequuntur quos?</p>
+        </article>
+    </main>
+    <footer>
+        <p id="footer-p">Site criado por João Condé, com fins de teste</p>
+    </footer>
+    <script>
+        function clickMenu(){
+            if (menu.style.display == 'block') {
+                menu.style.display = 'none'
+            } else {
+                menu.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>

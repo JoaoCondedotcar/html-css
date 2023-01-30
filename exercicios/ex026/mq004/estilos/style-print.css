@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+/*print style*/
+
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+main {
+    border: 2px solid black;
+}
+
+img#phone { display: none; }
+img#tablet { display: none; }
+img#print { display: block; }
+img#pc { display: none; }
+img#tv { display: none; }

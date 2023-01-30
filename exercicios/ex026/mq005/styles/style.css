@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+/*version mobile first*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: chartreuse;
+    text-align: justify;
+}
+
+header h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.8em;
+    text-align: center;
+    margin: 14px 0px 14px 0px;
+}
+
+header p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 1.6em;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+span#burguer {
+    color: black;
+    background-color: chartreuse;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+}
+
+span#burguer:hover {
+    color: rgb(62, 124, 0);
+}
+
+menu {
+    padding: 10px 0px 10px 0px;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    display: none;
+    background-color: chartreuse;
+}
+
+header > menu > ul > li > a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: rgb(81, 205, 50);
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 5px;
+}
+
+menu > ul > li > a:hover{
+    background-color: red;
+    transition: 3s;
+}
+
+main {
+    border-radius: 20px;
+    width: 90vw;
+    margin: 10px auto 10px auto;
+    background-color: white;
+    padding: 12px;
+}
+
+main p {
+    text-indent: 20px;
+    line-height: 30px;
+    font-size: 1.2em;
+}
+
+main h2 {
+    margin: 20px 0px 20px 0px;
+    text-decoration: underline 2px chartreuse;
+    text-underline-offset: 3px;
+}
+
+footer {
+    font-weight: bold;
+    font-size: 1.3em;
+    text-align: center;
+    padding: 16px;
+}
