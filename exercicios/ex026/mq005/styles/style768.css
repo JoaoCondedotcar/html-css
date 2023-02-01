@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+span#burguer {
+    display: none;
+}
+
+menu {
+    display: block;
+    padding: 0px;
+}
+
+menu > ul {
+    text-align: center;
+}
+
+menu > ul > li {
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    padding: 0px 10px 0px 10px;
+    width: 90px;
+}
+
+main {
+    width: 768px;
+}
