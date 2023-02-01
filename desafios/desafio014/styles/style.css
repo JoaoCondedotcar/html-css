@@ -127,6 +127,7 @@ form > div > a#forgot-pass {
     margin: 10px auto;
     width: 90%;
     height: 28px;
+    padding-top: 3px;
     color: white;
     font-weight: bold;
     background-color: rgb(255, 196, 85);
